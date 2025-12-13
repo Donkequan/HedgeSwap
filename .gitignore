@@ -1,0 +1,54 @@
+# Build outputs (C toolchains)
+/build/
+SIG_AS/build/
+SIG_AS/build/**
+VTD/**/build/
+VTD/**/build/**
+TVTD/**/build/
+time-puzzles/**/build/
+TVTD/**/lib/
+TVTD/**/lib/**
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.obj
+*.dSYM/
+*.dSYM
+*.pkgf
+
+# Generated archives and logs
+*.tar
+*.gz
+*.zip
+*.log
+
+# Foundry / Forge
+cache/
+out/
+broadcast/
+snapshots/
+abi/
+docs/
+forge-artifacts/
+scripts/output/
+lib/.forge-install-cache
+
+# Generic dependency folders
+/node_modules/
+/vendor/
+lib/*
+!lib/forge-std/
+
+# Editor & OS cruft
+.DS_Store
+*.swp
+*.swo
+*.tmp
+.idea/
+.vscode/
+.env
+.env.*
