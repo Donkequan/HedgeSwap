@@ -1,7 +1,34 @@
 # HedgeSwap: Hedged Universal Atomic Swaps Resilient to Griefing Attacks
 
-This repository contains three closely-related experiments:
+This repository contains implementations of the cryptographic primitives and smart contracts used in the HedgeSwap experiments.
 
-- `SIG_AS` implememtations of digital signatures and adaptor signature including 2PC implememtations.
-- `VTD`: an implememt of verifiable timed dalog. 
-- ``Contract: used contracts in experment. 
+## Repository Structure
+
+- `SIG_AS`: ECDSA-based and Schnorr-based signatures, and adaptor signature implementations, including 2PC.
+- `VTD`: Verifiable timed dlog implementation. 
+- `Contract`: Contract-based solution and MIMO contract used in the experiments. 
+
+## Prerequisites
+
+Install crypto dependencies (Ubuntu):
+
+```bash
+sudo apt-get install -y build-essential pkg-config libssl-dev libgmp-dev
+```
+
+Verifiable timed dlog tests require the
+[Pairing-Based Cryptography (PBC)](https://crypto.stanford.edu/pbc/) library.
+
+
+## Running the tests
+
+### 1. Signature and adaptor signature test
+
+- `make run-ecdsa` — ECDSA-based results.
+- `make run-schnorr` — Schnorr-based results.
+
+### 2. Verifiable timed dlog
+
+```bash
+make run-vtd
+```

@@ -20,9 +20,11 @@ CC=gcc
 CFLAGS=-I ${INCLUDE} -L ${LIBS} -g
 
 ${BUILD_DIR}/%.o: ${SRC}/%.c
+	@mkdir -p $(dir $@)
 	$(CC) -c $< -o $@ $(CFLAGS)
 
 ${RP_TARGET}: ${RP_OBJ}
+	@mkdir -p ${LIBS}
 	ar rcs ${LIBS}/${RP_TARGET}.a $^
 
 clean:

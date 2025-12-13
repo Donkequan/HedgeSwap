@@ -20,9 +20,11 @@ CC=gcc
 CFLAGS=-I ${INCLUDE} -L ${LIBS} -g
 
 ${BUILD_DIR}/%.o: ${SRC}/%.c
+	@mkdir -p $(dir $@)
 	$(CC) -c $< -o $@ $(CFLAGS)
 
 ${VTD_TARGET}: ${VTD_OBJ}
+	@mkdir -p ${LIBS}
 	ar rcs ${LIBS}/${VTD_TARGET}.a $^
 
 clean:
