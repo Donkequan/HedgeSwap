@@ -50,5 +50,6 @@ lib/*
 *.tmp
 .idea/
 .vscode/
+SIG_AS/.vs/
 .env
 .env.*
