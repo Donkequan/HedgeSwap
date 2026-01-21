@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-contract HedgedEthHTLC {
+contract HedgedEth {
     // roles
     address public immutable initiator;   // this-chain principal owner
     address public immutable participant; // can redeem by revealing secret; premium payer
