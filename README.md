@@ -1,4 +1,4 @@
-# HedgeSwap: Hedged Universal Atomic Swaps Resilient to Griefing Attacks
+# HedgeSwap: Universal Hedged Atomic Swaps Against Griefing Attacks
 
 This repository contains implementations of the cryptographic primitives and smart contracts used in the HedgeSwap experiments.
 
