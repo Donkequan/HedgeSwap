@@ -9,6 +9,10 @@ This repository contains implementations of the cryptographic primitives and sma
 - `Contract`: Contract-based solution and MIMO contract used in the experiments.
 - `HedgeSwap`: Full version of the HedgeSwap paper.
 
+## Full version
+
+The full version of the HedgeSwap paper is provided in xxx.
+
 ## Prerequisites
 
 Install crypto dependencies (Ubuntu):
@@ -33,3 +37,4 @@ Verifiable timed dlog tests require the
 ```bash
 make run-vtd
 ```
+
