@@ -11,7 +11,7 @@ This repository contains implementations of the cryptographic primitives and sma
 
 ## Full version
 
-The full version of the HedgeSwap paper is provided in xxx.
+The full version of the HedgeSwap paper is provided in [HedgeSwap_Full_Version.pdf](./HedgeSwap_Full_Version.pdf).
 
 ## Prerequisites
 
