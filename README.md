@@ -1,13 +1,12 @@
 # HedgeSwap: Universal Hedged Atomic Swaps Against Griefing Attacks
 
-This repository contains implementations of the cryptographic primitives and smart contracts used in the HedgeSwap experiments, as well as the full version of the paper.
+This repository contains implementations of the cryptographic primitives and smart contracts used in the HedgeSwap experiments.
 
 ## Repository Structure
 
 - `SIG_AS`: ECDSA-based and Schnorr-based signatures, and adaptor signature implementations, including 2PC.
 - `VTD`: Verifiable timed dlog implementation. 
 - `Contract`: Contract-based solution in [Xue and Herlihy](https://arxiv.org/abs/2105.06322) and MIMO multi-signature contract used in the experiments.
-- `HedgeSwap`: Full version of HedgeSwap ([HedgeSwap_Full_Version.pdf](./HedgeSwap_Full_Version.pdf)).
 
 ## Prerequisites
 
