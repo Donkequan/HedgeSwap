@@ -1,6 +1,8 @@
 # HedgeSwap: Universal Hedged Atomic Swaps Against Griefing Attacks
 
-This repository contains implementations of the cryptographic primitives and smart contracts used in the HedgeSwap experiments.
+This repository contains implementations of the cryptographic primitives and smart contracts used in the HedgeSwap experiments. 
+
+The full version of the paper is available on ePrint: [HedgeSwap paper](https://eprint.iacr.org/2026/1252).
 
 ## Repository Structure
 
